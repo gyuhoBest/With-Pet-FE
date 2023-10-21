@@ -154,6 +154,7 @@ with pet은 반려견의 하루하루를 기록하는 서비스입니다. with p
 ### 3. 랜딩페이지의 로컬 정적 이미지에 대해서 Progressive Rendering Image 적용 
 - 네트워크 설정 `빠른 3g, 캐시 사용 중지`에서도 이미지가 로드 되기 전까지 빈 공간이 아닌 blur이미지를 보여줌.(사용자 경험 개선)
 <br>
+
 ![image](https://github.com/Chagok-Integrated-for-DevProject/Chagok-Frontend/assets/68717963/5a32e688-57cf-44d7-af87-beefb236453a)
 
 ![progressiveImg](https://github.com/Chagok-Integrated-for-DevProject/Chagok-Frontend/assets/68717963/cbbcde26-7a34-4983-809c-3a74c634b42f)
