@@ -138,15 +138,8 @@ with pet은 반려견의 하루하루를 기록하는 서비스입니다. with p
 - SPA의 특성 상, 한 번에 모든 번들이 로드되어야 작동하므로 코드 스플리팅 적용하여 초기 로딩 속도 향상.
 - cloudFront(CDN), S3로 재배포. `Edge Location에서 빌드 파일을 캐싱`하기 때문에 사용자는 좀더 빨리 데이터를 전달 받을 수 있다.
 - 데스크탑 버전 LCP `3s => 0.7s`로 단축
-- 최적화 전, 모바일 버전 LightHouse <br />
 <div align="center">
-<img src="https://github.com/Chagok-Integrated-for-DevProject/Chagok-Frontend/assets/68717963/c28f3d79-15a9-4672-a936-bf1d0249692f" width="60%"/>
-</div>
-<br>
-
-- 최적화 후, 모바일 버전 LightHouse <br />
-<div align="center">
-<img src="https://github.com/Chagok-Integrated-for-DevProject/Chagok-Frontend/assets/68717963/169915c4-f371-4490-999c-95066de77a1c" width="60%" />
+<img src="https://github.com/Chagok-Integrated-for-DevProject/Chagok-Frontend/assets/68717963/4c45d804-c55e-4c27-a13e-cdc2c7381f33" width="60%" />
 </div>
 
 <br><br>
@@ -154,6 +147,7 @@ with pet은 반려견의 하루하루를 기록하는 서비스입니다. with p
 ### 3. 랜딩페이지의 로컬 정적 이미지에 대해서 Progressive Rendering Image 적용 
 - 네트워크 설정 `빠른 3g, 캐시 사용 중지`에서도 이미지가 로드 되기 전까지 빈 공간이 아닌 blur이미지를 보여줌.(사용자 경험 개선)
 <br>
+
 ![image](https://github.com/Chagok-Integrated-for-DevProject/Chagok-Frontend/assets/68717963/5a32e688-57cf-44d7-af87-beefb236453a)
 
 ![progressiveImg](https://github.com/Chagok-Integrated-for-DevProject/Chagok-Frontend/assets/68717963/cbbcde26-7a34-4983-809c-3a74c634b42f)
